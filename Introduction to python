@@ -1,0 +1,26 @@
+# 1. AVEREGE MARKS
+a=int(input())
+b=int(input())
+c=int(input())
+avg=(a+b+c)/3
+print(avg)
+
+
+
+# 2. Find X^n 
+def myPow(x: float, n: int) -> float:
+    sqt=pow(x,n)
+    return sqt
+
+# 3.Arithmetic Progression
+a=int(input())
+b=int(input())
+c=int(input())
+print(b-a)
+
+# 4.Rectangular area
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+print((c-a)*(d-b))
